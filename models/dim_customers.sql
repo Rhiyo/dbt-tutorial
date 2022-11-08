@@ -3,10 +3,10 @@
 )}}
 
 with customers as (
-    select * from {{ ref('customers') }}
+    select * from {{ ref('stg_customers') }}
 ),
 orders as (
-    select * from {{ ref('orders') }}
+    select * from {{ ref('stg_orders') }}
 ),
 
 customer_orders as (
