@@ -38,3 +38,14 @@ models:
         +materialized: table
     staging:
       +materialized: view 
+
+seeds:
+  - name: customers
+    config:
+      schema: raw
+  - name: orders
+    config:
+      schema: raw
+  - name: payments
+    config:
+      schema: raw
