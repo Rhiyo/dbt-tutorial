@@ -4,13 +4,9 @@ seeds:
   - name: customers
     config:
       schema: raw
-
-seeds:
   - name: orders
     config:
       schema: raw
-
-seeds:
   - name: payments
     config:
       schema: raw
